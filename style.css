@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+.container{
+    display: flex;
+    padding-top:  3% ;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 60%;
+    justify-content: center;
+    border-radius: 20px;
+    
+    
+}
+.sedans{
+padding:0 5% ;
+padding-bottom: 20%;
+background-color: coral;
+box-shadow: 2px 2px 2px 2px ;
+transition: 1s ease-in;
+border-radius:5%  0  0 5%;
+
+
+}
+.suv{
+    padding:0 5% ;
+    padding-bottom: 20%;
+background-color:darkcyan;
+box-shadow: 2px 2px 2px 2px ;
+transition: 1s;
+}
+.luxury{
+    padding:0 5% ;
+    padding-bottom: 20%;
+background-color:darkgreen;
+box-shadow: 2px 2px 2px 2px ;
+transition: 1s;
+border-radius: 0 5%  5% 0 ;
+}
+button{
+width: 70%;
+height: 10%;
+border-radius: 15px;
+border: none;
+
+margin-top: 70%;
+margin-bottom: 0;
+font-weight: bold;
+transition: 0.3s;
+}
+.first{
+   color: darkorange;
+}
+.second{
+color:darkcyan ;
+}
+.third{
+color:darkgreen ;
+}
+h1 , p{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+button:hover{
+    width: 70%;
+    height: 10%;
+    border-radius: 15px;
+    border: none;
+    margin-top: 70%;
+    margin-bottom: 0;
+    
+    
+    border: black 1px solid;
+    cursor: pointer;
+    background-color: transparent;
+    
+    }
+@media screen and (max-width:600px) {
+
+    .container{
+        display: block;
+    }
+    .p{
+        text-align: flex-start;
+    }
+    h1{
+        text-align: flex-start;
+    }
+    button{
+        text-align: center;
+        padding: 5%;
+        margin-left: 15%;
+        
+    }
+    .sedans{
+        border-radius: 5% 5% 0 0;
+    }
+    .luxury{
+        border-radius:0 0 5% 5% ;
+    }
+   
+    
+}
+.sedans:hover{
+    padding:0 5% ;
+    padding-bottom: 20%;
+    background-color: rgb(167, 44, 0);
+    box-shadow: 2px 2px 2px 2px ;
+   
+    cursor: pointer;
+    
+    }
+    .suv:hover{
+        padding:0 5% ;
+        padding-bottom: 20%;
+    background-color:rgb(1, 78, 78);
+    box-shadow: 2px 2px 2px 2px ;
+   
+    cursor: pointer;
+    }
+    .luxury:hover{
+        padding:0 5% ;
+        padding-bottom: 20%;
+    background-color:rgb(0, 22, 0);
+    box-shadow: 2px 2px 2px 2px ;
+    
+    cursor: pointer;
+    }
+    svg{
+        padding-top: 15%;
+       
+        margin: 5%;
+    }
+    footer{
+        display: block;
+        margin: 5%;
+        text-align: center;
+    }
